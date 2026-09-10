@@ -1,0 +1,2382 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        FrontStudio — White-Label Frontend Development Agency
+    </title>
+
+    <meta name="description"
+        content="FrontStudio provides fast, reliable white-label frontend development for software houses, SaaS companies, design agencies, and web studios.">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical" href="https://frontstudio.dev/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="FrontStudio — White-Label Frontend Development">
+
+    <meta property="og:description"
+        content="Your invisible frontend team for fast, clean and production-ready web development.">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="https://frontstudio.dev/">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS v4 -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Alpine.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- Global styles -->
+    <style type="text/tailwindcss">
+        @theme {
+            --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+            --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+            --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+            --color-ink-950: #071014;
+            --color-ink-900: #0b171b;
+            --color-ink-800: #102126;
+            --color-ink-700: #173038;
+
+            --color-mint-400: #5eead4;
+            --color-mint-500: #2dd4bf;
+
+            --color-emerald-400: #34d399;
+            --color-emerald-500: #10b981;
+
+            --color-paper-50: #f4f8f7;
+            --color-paper-100: #e8f0ee;
+
+            --color-muted: #91a5a9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <section id="services" aria-labelledby="services-heading"
+            class="relative isolate overflow-hidden bg-[#071014] py-24 text-white sm:py-28 lg:py-36"
+            x-data="{ activeTab: 'conversion' }">
+            <!-- Decorative background -->
+            <div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10">
+                <div class="absolute left-[8%] top-20 h-72 w-72 rounded-full bg-teal-400/10 blur-[110px]"></div>
+
+                <div class="absolute bottom-0 right-[5%] h-96 w-96 rounded-full bg-emerald-400/10 blur-[130px]"></div>
+
+                <div class="absolute inset-0 opacity-[0.035]"
+                    style="
+                background-image:
+                    linear-gradient(rgba(255,255,255,.8) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255,255,255,.8) 1px, transparent 1px);
+                background-size: 64px 64px;
+            ">
+                </div>
+            </div>
+
+            <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+
+                <!-- Section intro -->
+                <div class="grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:items-end">
+
+                    <!-- Left -->
+                    <div class="max-w-xl">
+
+                        <div
+                            class="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.035] px-3 py-1.5 font-mono text-[11px] font-medium uppercase tracking-[0.16em] text-teal-300">
+                            <span
+                                class="h-1.5 w-1.5 rounded-full bg-teal-300 shadow-[0_0_12px_rgba(94,234,212,.8)]"></span>
+
+                            Frontend capability
+                        </div>
+
+                        <h2 id="services-heading"
+                            class="font-display text-4xl font-bold tracking-[-0.04em] text-white sm:text-5xl lg:text-6xl">
+                            Frontend built for
+                            <span class="text-teal-300">
+                                real production.
+                            </span>
+                        </h2>
+
+                        <p class="mt-6 max-w-lg text-base leading-7 text-slate-400 sm:text-lg">
+                            From Figma files to production-ready interfaces,
+                            we build fast, responsive frontends that fit your
+                            existing stack and your team's workflow.
+                        </p>
+
+                        <div class="mt-8 flex flex-wrap gap-x-6 gap-y-3 font-mono text-xs text-slate-500">
+                            <span>01 / Design to Code</span>
+                            <span>02 / Frontend Development</span>
+                            <span>03 / White-Label Delivery</span>
+                        </div>
+                    </div>
+
+                    <!-- Right: positioning statement -->
+                    <div class="lg:justify-self-end lg:max-w-xl">
+
+                        <div class="border-l border-teal-300/30 pl-5 sm:pl-7">
+
+                            <p class="text-lg leading-8 text-slate-300 sm:text-xl">
+                                Need more frontend capacity without hiring another
+                                developer?
+                            </p>
+
+                            <p class="mt-3 text-sm leading-6 text-slate-500">
+                                Plug us into your workflow. We work quietly behind
+                                your brand and deliver code your developers can
+                                actually maintain.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Main capability workbench -->
+                <div class="mt-16 grid gap-5 lg:mt-20 lg:grid-cols-[0.72fr_1.28fr]">
+
+                    <!-- Capability navigation -->
+                    <div class="rounded-3xl border border-white/10 bg-white/[0.025] p-3">
+
+                        <div class="mb-4 px-4 pt-3">
+                            <p class="font-mono text-[10px] uppercase tracking-[0.18em] text-slate-600">
+                                Select capability
+                            </p>
+                        </div>
+
+
+                        <!-- Conversion -->
+                        <button type="button" @click="activeTab = 'conversion'"
+                            :aria-selected="activeTab === 'conversion'"
+                            class="group flex w-full items-start gap-4 rounded-2xl p-4 text-left transition-all duration-300"
+                            :class="activeTab === 'conversion'
+                                ?
+                                'bg-teal-300 text-[#071014]' :
+                                'text-slate-400 hover:bg-white/5 hover:text-white'">
+                            <span class="font-mono text-xs opacity-60">
+                                01
+                            </span>
+
+                            <span>
+                                <span class="block text-sm font-semibold">
+                                    Design to Code
+                                </span>
+
+                                <span class="mt-1 block text-xs leading-5"
+                                    :class="activeTab === 'conversion'
+                                        ?
+                                        'text-[#23433f]' :
+                                        'text-slate-600'">
+                                    Pixel-accurate frontend from your designs.
+                                </span>
+                            </span>
+                        </button>
+
+
+                        <!-- Frameworks -->
+                        <button type="button" @click="activeTab = 'frameworks'"
+                            :aria-selected="activeTab === 'frameworks'"
+                            class="group flex w-full items-start gap-4 rounded-2xl p-4 text-left transition-all duration-300"
+                            :class="activeTab === 'frameworks'
+                                ?
+                                'bg-teal-300 text-[#071014]' :
+                                'text-slate-400 hover:bg-white/5 hover:text-white'">
+                            <span class="font-mono text-xs opacity-60">
+                                02
+                            </span>
+
+                            <span>
+                                <span class="block text-sm font-semibold">
+                                    Modern Frameworks
+                                </span>
+
+                                <span class="mt-1 block text-xs leading-5"
+                                    :class="activeTab === 'frameworks'
+                                        ?
+                                        'text-[#23433f]' :
+                                        'text-slate-600'">
+                                    React, Next.js, Vue, Nuxt and more.
+                                </span>
+                            </span>
+                        </button>
+
+
+                        <!-- Stack -->
+                        <button type="button" @click="activeTab = 'stack'" :aria-selected="activeTab === 'stack'"
+                            class="group flex w-full items-start gap-4 rounded-2xl p-4 text-left transition-all duration-300"
+                            :class="activeTab === 'stack'
+                                ?
+                                'bg-teal-300 text-[#071014]' :
+                                'text-slate-400 hover:bg-white/5 hover:text-white'">
+                            <span class="font-mono text-xs opacity-60">
+                                03
+                            </span>
+
+                            <span>
+                                <span class="block text-sm font-semibold">
+                                    Core Frontend
+                                </span>
+
+                                <span class="mt-1 block text-xs leading-5"
+                                    :class="activeTab === 'stack'
+                                        ?
+                                        'text-[#23433f]' :
+                                        'text-slate-600'">
+                                    Semantic HTML, Tailwind and Alpine.js.
+                                </span>
+                            </span>
+                        </button>
+
+
+                        <!-- Custom -->
+                        <button type="button" @click="activeTab = 'custom'" :aria-selected="activeTab === 'custom'"
+                            class="group flex w-full items-start gap-4 rounded-2xl p-4 text-left transition-all duration-300"
+                            :class="activeTab === 'custom'
+                                ?
+                                'bg-teal-300 text-[#071014]' :
+                                'text-slate-400 hover:bg-white/5 hover:text-white'">
+                            <span class="font-mono text-xs opacity-60">
+                                04
+                            </span>
+
+                            <span>
+                                <span class="block text-sm font-semibold">
+                                    Custom Frontends
+                                </span>
+
+                                <span class="mt-1 block text-xs leading-5"
+                                    :class="activeTab === 'custom'
+                                        ?
+                                        'text-[#23433f]' :
+                                        'text-slate-600'">
+                                    Built around your existing product stack.
+                                </span>
+                            </span>
+                        </button>
+
+                    </div>
+
+
+                    <!-- Technical panel -->
+                    <div
+                        class="relative min-h-[420px] overflow-hidden rounded-3xl border border-white/10 bg-[#0b171b] p-6 sm:p-8 lg:p-10">
+
+                        <!-- Technical header -->
+                        <div class="flex items-center justify-between border-b border-white/10 pb-5">
+
+                            <div class="flex items-center gap-2">
+                                <span class="h-2 w-2 rounded-full bg-red-400/70"></span>
+                                <span class="h-2 w-2 rounded-full bg-yellow-400/70"></span>
+                                <span class="h-2 w-2 rounded-full bg-green-400/70"></span>
+                            </div>
+
+                            <span class="font-mono text-[10px] uppercase tracking-[0.16em] text-slate-600">
+                                frontend.config
+                            </span>
+
+                        </div>
+
+
+                        <!-- Design to Code -->
+                        <div x-show="activeTab === 'conversion'" x-transition.opacity.duration.200ms class="pt-8">
+
+                            <div class="flex items-start justify-between gap-6">
+
+                                <div>
+                                    <span class="font-mono text-xs text-teal-300">
+                                        // 01 — design_to_code
+                                    </span>
+
+                                    <h3 class="mt-3 font-display text-2xl font-bold text-white sm:text-3xl">
+                                        From design file to clean frontend.
+                                    </h3>
+                                </div>
+
+                                <span class="hidden font-mono text-4xl text-white/5 sm:block">
+                                    &lt;/&gt;
+                                </span>
+
+                            </div>
+
+                            <p class="mt-5 max-w-2xl text-sm leading-6 text-slate-400">
+                                Turn Figma, Adobe XD, PSD or Sketch designs into
+                                responsive, accessible and production-ready interfaces.
+                                We preserve the visual details while keeping the code
+                                practical for your development team.
+                            </p>
+
+
+                            <div class="mt-8 grid gap-3 sm:grid-cols-2">
+
+                                <div
+                                    class="group rounded-2xl border border-white/10 bg-white/[0.025] p-4 transition hover:border-teal-300/30 hover:bg-white/[0.04]">
+                                    <span class="font-mono text-[10px] text-slate-600">
+                                        INPUT
+                                    </span>
+
+                                    <p class="mt-2 text-sm font-medium text-slate-200">
+                                        Figma / XD / PSD / Sketch
+                                    </p>
+                                </div>
+
+                                <div
+                                    class="group rounded-2xl border border-white/10 bg-white/[0.025] p-4 transition hover:border-teal-300/30 hover:bg-white/[0.04]">
+                                    <span class="font-mono text-[10px] text-slate-600">
+                                        OUTPUT
+                                    </span>
+
+                                    <p class="mt-2 text-sm font-medium text-slate-200">
+                                        Responsive production code
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Frameworks -->
+                        <div x-show="activeTab === 'frameworks'" x-transition.opacity.duration.200ms class="pt-8">
+
+                            <span class="font-mono text-xs text-teal-300">
+                                // 02 — framework_stack
+                            </span>
+
+                            <h3 class="mt-3 font-display text-2xl font-bold text-white sm:text-3xl">
+                                The right framework for the product.
+                            </h3>
+
+                            <p class="mt-5 max-w-2xl text-sm leading-6 text-slate-400">
+                                Need a component-based frontend or a framework that
+                                fits your existing application? We can work inside
+                                your preferred ecosystem instead of forcing a new one.
+                            </p>
+
+
+                            <div class="mt-8 flex flex-wrap gap-3">
+
+                                <span
+                                    class="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-slate-200">
+                                    React
+                                </span>
+
+                                <span
+                                    class="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-slate-200">
+                                    Next.js
+                                </span>
+
+                                <span
+                                    class="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-slate-200">
+                                    Vue
+                                </span>
+
+                                <span
+                                    class="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-slate-200">
+                                    Nuxt
+                                </span>
+
+                                <span
+                                    class="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-slate-200">
+                                    Laravel Blade
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Core stack -->
+                        <div x-show="activeTab === 'stack'" x-transition.opacity.duration.200ms class="pt-8">
+
+                            <span class="font-mono text-xs text-teal-300">
+                                // 03 — core_frontend
+                            </span>
+
+                            <h3 class="mt-3 font-display text-2xl font-bold text-white sm:text-3xl">
+                                Lightweight by default.
+                            </h3>
+
+                            <p class="mt-5 max-w-2xl text-sm leading-6 text-slate-400">
+                                We focus on semantic markup, reusable components,
+                                responsive layouts and minimal JavaScript. The result
+                                is easier to maintain and faster to ship.
+                            </p>
+
+
+                            <div class="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3">
+
+                                <div class="rounded-xl border border-white/10 p-4">
+                                    <p class="font-mono text-xs text-teal-300">
+                                        HTML5
+                                    </p>
+                                    <p class="mt-1 text-xs text-slate-500">
+                                        Semantic structure
+                                    </p>
+                                </div>
+
+                                <div class="rounded-xl border border-white/10 p-4">
+                                    <p class="font-mono text-xs text-teal-300">
+                                        Tailwind
+                                    </p>
+                                    <p class="mt-1 text-xs text-slate-500">
+                                        Utility-first CSS
+                                    </p>
+                                </div>
+
+                                <div class="rounded-xl border border-white/10 p-4">
+                                    <p class="font-mono text-xs text-teal-300">
+                                        Alpine.js
+                                    </p>
+                                    <p class="mt-1 text-xs text-slate-500">
+                                        Lightweight UI
+                                    </p>
+                                </div>
+
+                                <div class="rounded-xl border border-white/10 p-4">
+                                    <p class="font-mono text-xs text-teal-300">
+                                        Swiper
+                                    </p>
+                                    <p class="mt-1 text-xs text-slate-500">
+                                        Touch sliders
+                                    </p>
+                                </div>
+
+                                <div class="rounded-xl border border-white/10 p-4">
+                                    <p class="font-mono text-xs text-teal-300">
+                                        A11y
+                                    </p>
+                                    <p class="mt-1 text-xs text-slate-500">
+                                        Accessible UI
+                                    </p>
+                                </div>
+
+                                <div class="rounded-xl border border-white/10 p-4">
+                                    <p class="font-mono text-xs text-teal-300">
+                                        SEO
+                                    </p>
+                                    <p class="mt-1 text-xs text-slate-500">
+                                        Search-ready markup
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Custom frontends -->
+                        <div x-show="activeTab === 'custom'" x-transition.opacity.duration.200ms class="pt-8">
+
+                            <span class="font-mono text-xs text-teal-300">
+                                // 04 — custom_frontend
+                            </span>
+
+                            <h3 class="mt-3 font-display text-2xl font-bold text-white sm:text-3xl">
+                                Your stack. Your rules.
+                            </h3>
+
+                            <p class="mt-5 max-w-2xl text-sm leading-6 text-slate-400">
+                                Already have a backend, CMS or application architecture?
+                                We build the frontend around it. No unnecessary rebuilds.
+                                No technology lock-in.
+                            </p>
+
+
+                            <div class="mt-8 rounded-2xl border border-teal-300/15 bg-teal-300/[0.035] p-5">
+
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="flex h-8 w-8 items-center justify-center rounded-lg bg-teal-300/10 font-mono text-xs text-teal-300">
+                                        →
+                                    </span>
+
+                                    <p class="text-sm font-medium text-slate-200">
+                                        Figma → Custom Frontend Stack
+                                    </p>
+                                </div>
+
+                                <div class="mt-4 h-px bg-white/10"></div>
+
+                                <p class="mt-4 text-xs leading-5 text-slate-500">
+                                    We adapt to the technologies your team already
+                                    uses, making handoff simple and integration faster.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Technology strip -->
+                <div class="mt-5 rounded-3xl border border-white/10 bg-white/[0.02] p-5 sm:p-6">
+
+                    <div class="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
+
+                        <div class="shrink-0">
+                            <p class="font-mono text-[10px] uppercase tracking-[0.18em] text-slate-600">
+                                Technologies
+                            </p>
+
+                            <p class="mt-1 text-sm text-slate-400">
+                                Built around your existing workflow.
+                            </p>
+                        </div>
+
+
+                        <div class="flex flex-wrap gap-2">
+
+                            <span class="rounded-lg bg-white/5 px-3 py-2 text-xs font-medium text-slate-300">
+                                HTML5
+                            </span>
+
+                            <span class="rounded-lg bg-white/5 px-3 py-2 text-xs font-medium text-slate-300">
+                                Tailwind CSS
+                            </span>
+
+                            <span class="rounded-lg bg-white/5 px-3 py-2 text-xs font-medium text-slate-300">
+                                Alpine.js
+                            </span>
+
+                            <span class="rounded-lg bg-white/5 px-3 py-2 text-xs font-medium text-slate-300">
+                                React
+                            </span>
+
+                            <span class="rounded-lg bg-white/5 px-3 py-2 text-xs font-medium text-slate-300">
+                                Next.js
+                            </span>
+
+                            <span class="rounded-lg bg-white/5 px-3 py-2 text-xs font-medium text-slate-300">
+                                Vue
+                            </span>
+
+                            <span class="rounded-lg bg-white/5 px-3 py-2 text-xs font-medium text-slate-300">
+                                Nuxt
+                            </span>
+
+                            <span class="rounded-lg bg-white/5 px-3 py-2 text-xs font-medium text-slate-300">
+                                Laravel Blade
+                            </span>
+
+                            <span class="rounded-lg bg-white/5 px-3 py-2 text-xs font-medium text-slate-300">
+                                Figma
+                            </span>
+
+                            <span class="rounded-lg bg-white/5 px-3 py-2 text-xs font-medium text-slate-300">
+                                WordPress
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Bottom conversion line -->
+                <div
+                    class="mt-10 flex flex-col gap-5 border-t border-white/10 pt-8 sm:flex-row sm:items-center sm:justify-between">
+
+                    <p class="max-w-2xl text-sm leading-6 text-slate-500">
+                        AI helps us move faster on repetitive work. Experienced
+                        developers review, refine and validate the final output
+                        before it reaches your team.
+                    </p>
+
+                    <a href="#contact"
+                        class="group inline-flex shrink-0 items-center gap-3 text-sm font-semibold text-teal-300 transition hover:text-white">
+                        Discuss your frontend workload
+
+                        <span
+                            class="flex h-8 w-8 items-center justify-center rounded-full border border-teal-300/30 transition group-hover:translate-x-1 group-hover:border-white/30">
+                            →
+                        </span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="why-us" aria-labelledby="why-us-heading"
+            class="relative isolate overflow-hidden bg-[#0b171b] py-24 text-white sm:py-28 lg:py-36"
+            x-data="{ activeReason: null }">
+            <!-- Ambient background -->
+            <div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10">
+                <div class="absolute -left-32 top-1/3 h-80 w-80 rounded-full bg-teal-400/10 blur-[120px]"></div>
+
+                <div class="absolute -right-32 bottom-0 h-96 w-96 rounded-full bg-emerald-400/10 blur-[140px]"></div>
+
+                <div class="absolute inset-0 opacity-[0.025]"
+                    style="
+                background-image:
+                    linear-gradient(rgba(255,255,255,.8) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255,255,255,.8) 1px, transparent 1px);
+                background-size: 72px 72px;
+            ">
+                </div>
+            </div>
+
+            <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+
+                <!-- Intro -->
+                <div class="grid gap-12 lg:grid-cols-[1fr_0.8fr] lg:items-end">
+
+                    <div class="max-w-3xl">
+
+                        <h2 id="why-us-heading"
+                            class="font-display text-4xl font-bold tracking-[-0.045em] sm:text-5xl lg:text-6xl">
+                            Fast delivery is good.
+                            <span class="text-teal-300">
+                                Reliable delivery is better.
+                            </span>
+                        </h2>
+
+                        <p class="mt-6 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg">
+                            We combine experienced frontend development with modern
+                            AI-assisted workflows to remove unnecessary work without
+                            lowering the quality of the final code.
+                        </p>
+
+                    </div>
+
+                    <div class="lg:justify-self-end lg:max-w-sm">
+
+                        <p class="font-mono text-xs uppercase tracking-[0.18em] text-slate-600">
+                            The FrontStudio rule
+                        </p>
+
+                        <p class="mt-3 text-lg font-medium leading-8 text-slate-200">
+                            AI can accelerate the work.
+                            <span class="text-teal-300">
+                                It does not approve the work.
+                            </span>
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <!-- Main reasons -->
+                <div class="mt-16 grid gap-4 lg:mt-20 lg:grid-cols-[1.15fr_0.85fr]">
+
+                    <!-- Large primary block -->
+                    <article
+                        class="group relative overflow-hidden rounded-3xl border border-white/10 bg-[#102126] p-7 sm:p-9 lg:p-10"
+                        @mouseenter="activeReason = 'speed'" @mouseleave="activeReason = null">
+                        <!-- Decorative number -->
+                        <div aria-hidden="true"
+                            class="pointer-events-none absolute -right-5 -top-10 font-display text-[180px] font-extrabold leading-none tracking-[-0.08em] text-white/[0.025] transition-transform duration-700 group-hover:translate-x-3 group-hover:-translate-y-2">
+                            01
+                        </div>
+
+                        <div class="relative">
+
+                            <div class="flex items-center justify-between gap-5">
+
+                                <div
+                                    class="flex h-11 w-11 items-center justify-center rounded-xl border border-teal-300/20 bg-teal-300/10 font-mono text-sm text-teal-300">
+                                    01
+                                </div>
+
+                                <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-slate-600">
+                                    Delivery
+                                </span>
+
+                            </div>
+
+                            <h3
+                                class="mt-8 max-w-md font-display text-3xl font-bold tracking-[-0.035em] text-white sm:text-4xl">
+                                Move faster without cutting corners.
+                            </h3>
+
+                            <p class="mt-5 max-w-xl text-sm leading-7 text-slate-400">
+                                Repetitive frontend work should not consume days of
+                                developer time. We use automation and AI-assisted
+                                workflows where they make sense, then review the output
+                                before delivery.
+                            </p>
+
+                            <!-- Speed visual -->
+                            <div class="mt-10 overflow-hidden rounded-2xl border border-white/10 bg-[#071014]">
+
+                                <div class="flex items-center justify-between border-b border-white/10 px-4 py-3">
+                                    <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-slate-600">
+                                        workflow.speed
+                                    </span>
+
+                                    <span class="flex items-center gap-2 font-mono text-[10px] text-teal-300">
+                                        <span class="h-1.5 w-1.5 rounded-full bg-teal-300"></span>
+                                        optimized
+                                    </span>
+                                </div>
+
+                                <div class="space-y-4 p-5">
+
+                                    <div>
+                                        <div class="mb-2 flex justify-between text-xs">
+                                            <span class="text-slate-500">
+                                                Manual boilerplate
+                                            </span>
+                                            <span class="text-slate-600">
+                                                minimized
+                                            </span>
+                                        </div>
+
+                                        <div class="h-1.5 overflow-hidden rounded-full bg-white/5">
+                                            <div class="h-full w-[28%] rounded-full bg-teal-300"></div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="mb-2 flex justify-between text-xs">
+                                            <span class="text-slate-500">
+                                                Developer review
+                                            </span>
+                                            <span class="text-teal-300">
+                                                required
+                                            </span>
+                                        </div>
+
+                                        <div class="h-1.5 overflow-hidden rounded-full bg-white/5">
+                                            <div class="h-full w-[92%] rounded-full bg-emerald-400"></div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="mb-2 flex justify-between text-xs">
+                                            <span class="text-slate-500">
+                                                Production readiness
+                                            </span>
+                                            <span class="text-teal-300">
+                                                checked
+                                            </span>
+                                        </div>
+
+                                        <div class="h-1.5 overflow-hidden rounded-full bg-white/5">
+                                            <div class="h-full w-[96%] rounded-full bg-teal-300"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </article>
+
+
+                    <!-- Right column -->
+                    <div class="grid gap-4">
+
+                        <!-- White-label -->
+                        <article
+                            class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.025] p-7 transition-all duration-300 hover:border-teal-300/20 hover:bg-white/[0.04] sm:p-8"
+                            @mouseenter="activeReason = 'privacy'" @mouseleave="activeReason = null">
+
+                            <div class="flex items-start justify-between gap-6">
+
+                                <div
+                                    class="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 font-mono text-sm text-teal-300">
+                                    02
+                                </div>
+
+                                <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-slate-600">
+                                    White-label
+                                </span>
+
+                            </div>
+
+                            <h3 class="mt-7 font-display text-2xl font-bold tracking-[-0.03em] text-white">
+                                Your client sees your team.
+                            </h3>
+
+                            <p class="mt-3 text-sm leading-6 text-slate-500">
+                                We work as a quiet extension of your company. Your
+                                branding, client relationship and delivery process stay
+                                with you.
+                            </p>
+
+                            <!-- Privacy line -->
+                            <div class="mt-7 flex items-center gap-3 border-t border-white/10 pt-5">
+
+                                <span
+                                    class="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_14px_rgba(52,211,153,.5)]"></span>
+
+                                <span class="font-mono text-xs text-slate-400">
+                                    invisible_partner = true
+                                </span>
+
+                            </div>
+
+                        </article>
+
+
+                        <!-- Human supervised AI -->
+                        <article
+                            class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/[0.025] p-7 transition-all duration-300 hover:border-teal-300/20 hover:bg-white/[0.04] sm:p-8"
+                            @mouseenter="activeReason = 'ai'" @mouseleave="activeReason = null">
+
+                            <div class="flex items-start justify-between gap-6">
+
+                                <div
+                                    class="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 font-mono text-sm text-teal-300">
+                                    03
+                                </div>
+
+                                <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-slate-600">
+                                    AI + Human
+                                </span>
+
+                            </div>
+
+                            <h3 class="mt-7 font-display text-2xl font-bold tracking-[-0.03em] text-white">
+                                AI-assisted. Developer-approved.
+                            </h3>
+
+                            <p class="mt-3 text-sm leading-6 text-slate-500">
+                                We use AI to handle repetitive tasks, explore solutions
+                                and speed up implementation. Experienced developers
+                                review the result for structure, accessibility,
+                                performance and maintainability.
+                            </p>
+
+                            <!-- Human gate -->
+                            <div class="mt-7 flex items-center gap-2">
+
+                                <div class="flex flex-1 items-center gap-2">
+
+                                    <span class="h-px flex-1 bg-white/10"></span>
+
+                                    <span
+                                        class="rounded-lg border border-white/10 bg-[#071014] px-3 py-2 font-mono text-[10px] text-slate-500">
+                                        AI
+                                    </span>
+
+                                    <span class="text-slate-700">
+                                        →
+                                    </span>
+
+                                    <span
+                                        class="rounded-lg border border-teal-300/20 bg-teal-300/5 px-3 py-2 font-mono text-[10px] text-teal-300">
+                                        HUMAN
+                                    </span>
+
+                                    <span class="text-slate-700">
+                                        →
+                                    </span>
+
+                                    <span
+                                        class="rounded-lg border border-white/10 bg-[#071014] px-3 py-2 font-mono text-[10px] text-slate-500">
+                                        PROD
+                                    </span>
+
+                                    <span class="h-px flex-1 bg-white/10"></span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+
+                <!-- What clients actually receive -->
+                <div class="mt-4 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+
+                    <div
+                        class="rounded-2xl border border-white/10 bg-white/[0.02] p-5 transition hover:-translate-y-1 hover:border-white/20">
+                        <span class="font-mono text-[10px] uppercase tracking-[0.16em] text-slate-600">
+                            Output / 01
+                        </span>
+
+                        <h4 class="mt-4 text-sm font-semibold text-slate-200">
+                            Clean structure
+                        </h4>
+
+                        <p class="mt-2 text-xs leading-5 text-slate-500">
+                            Semantic HTML and sensible component structure.
+                        </p>
+                    </div>
+
+
+                    <div
+                        class="rounded-2xl border border-white/10 bg-white/[0.02] p-5 transition hover:-translate-y-1 hover:border-white/20">
+                        <span class="font-mono text-[10px] uppercase tracking-[0.16em] text-slate-600">
+                            Output / 02
+                        </span>
+
+                        <h4 class="mt-4 text-sm font-semibold text-slate-200">
+                            Responsive UI
+                        </h4>
+
+                        <p class="mt-2 text-xs leading-5 text-slate-500">
+                            Layouts designed to work across real screen sizes.
+                        </p>
+                    </div>
+
+
+                    <div
+                        class="rounded-2xl border border-white/10 bg-white/[0.02] p-5 transition hover:-translate-y-1 hover:border-white/20">
+                        <span class="font-mono text-[10px] uppercase tracking-[0.16em] text-slate-600">
+                            Output / 03
+                        </span>
+
+                        <h4 class="mt-4 text-sm font-semibold text-slate-200">
+                            Maintainable code
+                        </h4>
+
+                        <p class="mt-2 text-xs leading-5 text-slate-500">
+                            Reusable patterns without unnecessary complexity.
+                        </p>
+                    </div>
+
+
+                    <div
+                        class="rounded-2xl border border-white/10 bg-white/[0.02] p-5 transition hover:-translate-y-1 hover:border-white/20">
+                        <span class="font-mono text-[10px] uppercase tracking-[0.16em] text-slate-600">
+                            Output / 04
+                        </span>
+
+                        <h4 class="mt-4 text-sm font-semibold text-slate-200">
+                            Easy handoff
+                        </h4>
+
+                        <p class="mt-2 text-xs leading-5 text-slate-500">
+                            Code your developers can understand and continue.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Final statement -->
+                <div class="mt-16 grid gap-8 border-t border-white/10 pt-10 lg:grid-cols-[1fr_auto] lg:items-center">
+
+                    <div>
+
+                        <p
+                            class="max-w-3xl text-xl font-medium leading-8 tracking-[-0.02em] text-slate-200 sm:text-2xl">
+                            We do not sell you “AI-generated websites.”
+                            We sell you
+                            <span class="text-teal-300">
+                                faster frontend delivery with human quality control.
+                            </span>
+                        </p>
+
+                    </div>
+
+                    <a href="#contact"
+                        class="group inline-flex items-center justify-center gap-3 rounded-xl bg-teal-300 px-5 py-3 text-sm font-semibold text-[#071014] transition hover:-translate-y-0.5 hover:bg-teal-200">
+                        Work with FrontStudio
+
+                        <span class="transition-transform duration-200 group-hover:translate-x-1" aria-hidden="true">
+                            →
+                        </span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="process" aria-labelledby="process-heading"
+            class="relative isolate overflow-hidden bg-[#071014] py-24 text-white sm:py-28 lg:py-36"
+            x-data="{ activeStep: 1 }">
+            <!-- Background -->
+            <div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10">
+                <div
+                    class="absolute left-1/2 top-0 h-[500px] w-[700px] -translate-x-1/2 rounded-full bg-teal-400/[0.045] blur-[140px]">
+                </div>
+
+                <div class="absolute inset-0 opacity-[0.025]"
+                    style="
+                background-image:
+                    linear-gradient(rgba(255,255,255,.8) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255,255,255,.8) 1px, transparent 1px);
+                background-size: 72px 72px;
+            ">
+                </div>
+            </div>
+
+
+            <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+
+                <!-- Header -->
+                <div class="grid gap-10 lg:grid-cols-[1fr_0.7fr] lg:items-end">
+
+                    <div class="max-w-3xl">
+
+                        <h2 id="process-heading"
+                            class="font-display text-4xl font-bold tracking-[-0.045em] sm:text-5xl lg:text-6xl">
+                            A simple process.
+                            <span class="text-teal-300">
+                                No surprises.
+                            </span>
+                        </h2>
+
+                        <p class="mt-6 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg">
+                            We fit into the way your team already works. You provide
+                            the brief and requirements. We handle the frontend build,
+                            review and delivery.
+                        </p>
+
+                    </div>
+
+
+                    <div class="lg:justify-self-end">
+
+                        <div
+                            class="inline-flex items-center gap-3 rounded-xl border border-white/10 bg-white/[0.025] px-4 py-3">
+
+                            <span
+                                class="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_14px_rgba(52,211,153,.45)]"></span>
+
+                            <span class="font-mono text-xs text-slate-400">
+                                status:
+                                <span class="text-emerald-300">
+                                    ready_to_build
+                                </span>
+                            </span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Process -->
+                <div class="mt-16 grid gap-5 lg:mt-20 lg:grid-cols-[0.8fr_1.2fr]">
+
+
+                    <!-- Step navigation -->
+                    <div class="rounded-3xl border border-white/10 bg-white/[0.02] p-3">
+
+                        <div class="mb-4 px-4 pt-3">
+
+                            <p class="font-mono text-[10px] uppercase tracking-[0.18em] text-slate-600">
+                                Delivery pipeline
+                            </p>
+
+                        </div>
+
+
+                        <!-- Step 1 -->
+                        <button type="button" @click="activeStep = 1" :aria-selected="activeStep === 1"
+                            class="group flex w-full items-start gap-4 rounded-2xl p-4 text-left transition-all duration-300"
+                            :class="activeStep === 1 ?
+                                'bg-teal-300 text-[#071014]' :
+                                'text-slate-400 hover:bg-white/5 hover:text-white'">
+
+                            <span class="font-mono text-xs opacity-60">
+                                01
+                            </span>
+
+                            <span>
+                                <span class="block text-sm font-semibold">
+                                    Brief & Scope
+                                </span>
+
+                                <span class="mt-1 block text-xs leading-5"
+                                    :class="activeStep === 1 ?
+                                        'text-[#23433f]' :
+                                        'text-slate-600'">
+                                    Understand the project before coding.
+                                </span>
+                            </span>
+
+                        </button>
+
+
+                        <!-- Step 2 -->
+                        <button type="button" @click="activeStep = 2" :aria-selected="activeStep === 2"
+                            class="group flex w-full items-start gap-4 rounded-2xl p-4 text-left transition-all duration-300"
+                            :class="activeStep === 2 ?
+                                'bg-teal-300 text-[#071014]' :
+                                'text-slate-400 hover:bg-white/5 hover:text-white'">
+
+                            <span class="font-mono text-xs opacity-60">
+                                02
+                            </span>
+
+                            <span>
+                                <span class="block text-sm font-semibold">
+                                    Frontend Build
+                                </span>
+
+                                <span class="mt-1 block text-xs leading-5"
+                                    :class="activeStep === 2 ?
+                                        'text-[#23433f]' :
+                                        'text-slate-600'">
+                                    Turn the approved direction into code.
+                                </span>
+                            </span>
+
+                        </button>
+
+
+                        <!-- Step 3 -->
+                        <button type="button" @click="activeStep = 3" :aria-selected="activeStep === 3"
+                            class="group flex w-full items-start gap-4 rounded-2xl p-4 text-left transition-all duration-300"
+                            :class="activeStep === 3 ?
+                                'bg-teal-300 text-[#071014]' :
+                                'text-slate-400 hover:bg-white/5 hover:text-white'">
+
+                            <span class="font-mono text-xs opacity-60">
+                                03
+                            </span>
+
+                            <span>
+                                <span class="block text-sm font-semibold">
+                                    AI-Assisted Delivery
+                                </span>
+
+                                <span class="mt-1 block text-xs leading-5"
+                                    :class="activeStep === 3 ?
+                                        'text-[#23433f]' :
+                                        'text-slate-600'">
+                                    Use automation where it saves real time.
+                                </span>
+                            </span>
+
+                        </button>
+
+
+                        <!-- Step 4 -->
+                        <button type="button" @click="activeStep = 4" :aria-selected="activeStep === 4"
+                            class="group flex w-full items-start gap-4 rounded-2xl p-4 text-left transition-all duration-300"
+                            :class="activeStep === 4 ?
+                                'bg-teal-300 text-[#071014]' :
+                                'text-slate-400 hover:bg-white/5 hover:text-white'">
+
+                            <span class="font-mono text-xs opacity-60">
+                                04
+                            </span>
+
+                            <span>
+                                <span class="block text-sm font-semibold">
+                                    Human Review
+                                </span>
+
+                                <span class="mt-1 block text-xs leading-5"
+                                    :class="activeStep === 4 ?
+                                        'text-[#23433f]' :
+                                        'text-slate-600'">
+                                    Check quality before anything leaves us.
+                                </span>
+                            </span>
+
+                        </button>
+
+
+                        <!-- Step 5 -->
+                        <button type="button" @click="activeStep = 5" :aria-selected="activeStep === 5"
+                            class="group flex w-full items-start gap-4 rounded-2xl p-4 text-left transition-all duration-300"
+                            :class="activeStep === 5 ?
+                                'bg-teal-300 text-[#071014]' :
+                                'text-slate-400 hover:bg-white/5 hover:text-white'">
+
+                            <span class="font-mono text-xs opacity-60">
+                                05
+                            </span>
+
+                            <span>
+                                <span class="block text-sm font-semibold">
+                                    QA & Handoff
+                                </span>
+
+                                <span class="mt-1 block text-xs leading-5"
+                                    :class="activeStep === 5 ?
+                                        'text-[#23433f]' :
+                                        'text-slate-600'">
+                                    Final checks, fixes and clean delivery.
+                                </span>
+                            </span>
+
+                        </button>
+
+                    </div>
+
+
+                    <!-- Process detail -->
+                    <div
+                        class="relative overflow-hidden rounded-3xl border border-white/10 bg-[#0b171b] p-6 sm:p-8 lg:p-10">
+
+                        <!-- Top bar -->
+                        <div class="flex items-center justify-between border-b border-white/10 pb-5">
+
+                            <div class="flex items-center gap-2">
+
+                                <span class="h-2 w-2 rounded-full bg-red-400/70"></span>
+                                <span class="h-2 w-2 rounded-full bg-yellow-400/70"></span>
+                                <span class="h-2 w-2 rounded-full bg-green-400/70"></span>
+
+                            </div>
+
+                            <span class="font-mono text-[10px] uppercase tracking-[0.16em] text-slate-600"
+                                x-text="'process.step_' + activeStep"></span>
+
+                        </div>
+
+
+                        <!-- STEP 1 -->
+                        <div x-show="activeStep === 1" x-transition.opacity.duration.200ms class="pt-8">
+
+                            <div class="flex items-start justify-between gap-6">
+
+                                <div>
+                                    <span class="font-mono text-xs text-teal-300">
+                                        // 01 — brief
+                                    </span>
+
+                                    <h3 class="mt-3 font-display text-2xl font-bold text-white sm:text-3xl">
+                                        First, we understand the work.
+                                    </h3>
+                                </div>
+
+                                <span aria-hidden="true"
+                                    class="hidden font-mono text-5xl text-white/[0.035] sm:block">
+                                    01
+                                </span>
+
+                            </div>
+
+                            <p class="mt-5 max-w-2xl text-sm leading-7 text-slate-400">
+                                We review your designs, requirements, existing
+                                application and expected deliverables before
+                                development starts. This avoids unnecessary rework
+                                later.
+                            </p>
+
+
+                            <div class="mt-8 grid gap-3 sm:grid-cols-3">
+
+                                <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
+                                    <span class="font-mono text-[10px] text-slate-600">
+                                        INPUT
+                                    </span>
+
+                                    <p class="mt-2 text-sm text-slate-300">
+                                        Design files
+                                    </p>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
+                                    <span class="font-mono text-[10px] text-slate-600">
+                                        REVIEW
+                                    </span>
+
+                                    <p class="mt-2 text-sm text-slate-300">
+                                        Requirements
+                                    </p>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-4">
+                                    <span class="font-mono text-[10px] text-slate-600">
+                                        READY
+                                    </span>
+
+                                    <p class="mt-2 text-sm text-slate-300">
+                                        Build scope
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- STEP 2 -->
+                        <div x-show="activeStep === 2" x-transition.opacity.duration.200ms class="pt-8">
+
+                            <span class="font-mono text-xs text-teal-300">
+                                // 02 — build
+                            </span>
+
+                            <h3 class="mt-3 font-display text-2xl font-bold text-white sm:text-3xl">
+                                Then we build the interface.
+                            </h3>
+
+                            <p class="mt-5 max-w-2xl text-sm leading-7 text-slate-400">
+                                We translate the approved design into responsive,
+                                semantic and reusable frontend code using the stack
+                                agreed for your project.
+                            </p>
+
+
+                            <div class="mt-8 rounded-2xl border border-white/10 bg-[#071014] p-5">
+
+                                <div class="space-y-4 font-mono text-xs">
+
+                                    <div class="flex gap-3">
+                                        <span class="text-slate-700">
+                                            01
+                                        </span>
+                                        <span class="text-teal-300">
+                                            /components
+                                        </span>
+                                        <span class="text-slate-500">
+                                            reusable UI structure
+                                        </span>
+                                    </div>
+
+                                    <div class="flex gap-3">
+                                        <span class="text-slate-700">
+                                            02
+                                        </span>
+                                        <span class="text-teal-300">
+                                            /responsive
+                                        </span>
+                                        <span class="text-slate-500">
+                                            mobile → desktop
+                                        </span>
+                                    </div>
+
+                                    <div class="flex gap-3">
+                                        <span class="text-slate-700">
+                                            03
+                                        </span>
+                                        <span class="text-teal-300">
+                                            /interaction
+                                        </span>
+                                        <span class="text-slate-500">
+                                            states + behavior
+                                        </span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- STEP 3 -->
+                        <div x-show="activeStep === 3" x-transition.opacity.duration.200ms class="pt-8">
+
+                            <span class="font-mono text-xs text-teal-300">
+                                // 03 — acceleration
+                            </span>
+
+                            <h3 class="mt-3 font-display text-2xl font-bold text-white sm:text-3xl">
+                                Automation handles the boring parts.
+                            </h3>
+
+                            <p class="mt-5 max-w-2xl text-sm leading-7 text-slate-400">
+                                AI tools can help with repetitive implementation,
+                                boilerplate, code exploration and routine tasks.
+                                We use them where they improve delivery speed—not as a
+                                replacement for engineering judgment.
+                            </p>
+
+
+                            <div class="mt-8 grid gap-3 sm:grid-cols-[1fr_auto_1fr] sm:items-center">
+
+                                <div class="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
+
+                                    <span class="font-mono text-[10px] uppercase tracking-[0.14em] text-slate-600">
+                                        Automation
+                                    </span>
+
+                                    <p class="mt-3 text-sm font-medium text-slate-300">
+                                        Repetitive work
+                                    </p>
+
+                                </div>
+
+                                <span class="hidden text-xl text-slate-700 sm:block" aria-hidden="true">
+                                    →
+                                </span>
+
+                                <div class="rounded-2xl border border-teal-300/20 bg-teal-300/[0.04] p-5">
+
+                                    <span class="font-mono text-[10px] uppercase tracking-[0.14em] text-teal-300">
+                                        Developer
+                                    </span>
+
+                                    <p class="mt-3 text-sm font-medium text-slate-300">
+                                        Review + refinement
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- STEP 4 -->
+                        <div x-show="activeStep === 4" x-transition.opacity.duration.200ms class="pt-8">
+
+                            <span class="font-mono text-xs text-teal-300">
+                                // 04 — review
+                            </span>
+
+                            <h3 class="mt-3 font-display text-2xl font-bold text-white sm:text-3xl">
+                                Every delivery gets a human review.
+                            </h3>
+
+                            <p class="mt-5 max-w-2xl text-sm leading-7 text-slate-400">
+                                We inspect the generated and written code for
+                                unnecessary complexity, accessibility issues,
+                                responsiveness, performance problems and patterns
+                                that will become difficult to maintain.
+                            </p>
+
+
+                            <div class="mt-8 grid gap-3 sm:grid-cols-2">
+
+                                <div class="rounded-2xl border border-white/10 p-5">
+                                    <span class="text-teal-300">✓</span>
+
+                                    <p class="mt-3 text-sm font-medium text-slate-300">
+                                        Semantic structure
+                                    </p>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 p-5">
+                                    <span class="text-teal-300">✓</span>
+
+                                    <p class="mt-3 text-sm font-medium text-slate-300">
+                                        Responsive behavior
+                                    </p>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 p-5">
+                                    <span class="text-teal-300">✓</span>
+
+                                    <p class="mt-3 text-sm font-medium text-slate-300">
+                                        Accessibility basics
+                                    </p>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 p-5">
+                                    <span class="text-teal-300">✓</span>
+
+                                    <p class="mt-3 text-sm font-medium text-slate-300">
+                                        Code maintainability
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- STEP 5 -->
+                        <div x-show="activeStep === 5" x-transition.opacity.duration.200ms class="pt-8">
+
+                            <span class="font-mono text-xs text-teal-300">
+                                // 05 — delivery
+                            </span>
+
+                            <h3 class="mt-3 font-display text-2xl font-bold text-white sm:text-3xl">
+                                Final QA. Clean handoff.
+                            </h3>
+
+                            <p class="mt-5 max-w-2xl text-sm leading-7 text-slate-400">
+                                Before delivery, we check the implementation against
+                                the agreed requirements and fix issues found during
+                                review. You receive organized frontend code that your
+                                team can continue working with.
+                            </p>
+
+
+                            <div class="mt-8 overflow-hidden rounded-2xl border border-white/10">
+
+                                <div
+                                    class="grid grid-cols-[1fr_auto] items-center border-b border-white/10 bg-white/[0.02] px-5 py-4">
+
+                                    <span class="text-sm text-slate-300">
+                                        Responsive QA
+                                    </span>
+
+                                    <span class="font-mono text-xs text-emerald-300">
+                                        passed
+                                    </span>
+
+                                </div>
+
+                                <div class="grid grid-cols-[1fr_auto] items-center border-b border-white/10 px-5 py-4">
+
+                                    <span class="text-sm text-slate-300">
+                                        Code review
+                                    </span>
+
+                                    <span class="font-mono text-xs text-emerald-300">
+                                        passed
+                                    </span>
+
+                                </div>
+
+                                <div class="grid grid-cols-[1fr_auto] items-center px-5 py-4">
+
+                                    <span class="text-sm text-slate-300">
+                                        Handoff
+                                    </span>
+
+                                    <span class="font-mono text-xs text-teal-300">
+                                        ready
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Bottom process statement -->
+                <div class="mt-5 grid gap-5 lg:grid-cols-[1fr_auto] lg:items-center">
+
+                    <div class="rounded-3xl border border-white/10 bg-white/[0.02] p-6 sm:p-7">
+
+                        <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
+
+                            <div
+                                class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-teal-300 font-mono text-sm font-semibold text-[#071014]">
+                                →
+                            </div>
+
+                            <div>
+
+                                <p class="text-sm font-semibold text-slate-200">
+                                    You stay in control.
+                                </p>
+
+                                <p class="mt-1 text-sm leading-6 text-slate-500">
+                                    We handle the frontend workload and fit into your
+                                    existing project management, Git and development
+                                    workflow.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <a href="#contact"
+                        class="group inline-flex min-h-12 items-center justify-center gap-3 rounded-xl border border-teal-300/25 bg-teal-300/5 px-5 py-3 text-sm font-semibold text-teal-300 transition hover:-translate-y-0.5 hover:border-teal-300/50 hover:bg-teal-300/10">
+                        Start a frontend project
+
+                        <span aria-hidden="true" class="transition-transform duration-200 group-hover:translate-x-1">
+                            →
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="work" aria-labelledby="work-heading"
+            class="relative isolate overflow-hidden bg-[#0b171b] py-24 text-white sm:py-28 lg:py-36"
+            x-data="{ filter: 'all' }">
+            <!-- Background -->
+            <div aria-hidden="true" class="pointer-events-none absolute inset-0 -z-10">
+                <div class="absolute right-[10%] top-20 h-80 w-80 rounded-full bg-teal-400/[0.06] blur-[130px]"></div>
+
+                <div class="absolute bottom-0 left-[5%] h-72 w-72 rounded-full bg-emerald-400/[0.05] blur-[120px]">
+                </div>
+
+                <div class="absolute inset-0 opacity-[0.02]"
+                    style="
+                background-image:
+                    linear-gradient(rgba(255,255,255,.8) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255,255,255,.8) 1px, transparent 1px);
+                background-size: 72px 72px;
+            ">
+                </div>
+            </div>
+
+
+            <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+
+                <!-- Header -->
+                <div class="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end">
+
+                    <div class="max-w-3xl">
+
+                        <h2 id="work-heading"
+                            class="font-display text-4xl font-bold tracking-[-0.045em] sm:text-5xl lg:text-6xl">
+                            Work that looks good
+                            <span class="text-teal-300">
+                                and ships well.
+                            </span>
+                        </h2>
+
+                        <p class="mt-6 max-w-2xl text-base leading-7 text-slate-400 sm:text-lg">
+                            A selection of interfaces we've built from design files,
+                            product requirements and existing application stacks.
+                            Every project is built for real use—not just a screenshot.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Portfolio counter -->
+                    <div class="hidden rounded-2xl border border-white/10 bg-white/[0.025] px-5 py-4 lg:block">
+                        <span class="block font-mono text-[10px] uppercase tracking-[0.15em] text-slate-600">
+                            Selected work
+                        </span>
+
+                        <span class="mt-1 block font-display text-3xl font-bold text-white">
+                            08<span class="text-teal-300">+</span>
+                        </span>
+                    </div>
+
+                </div>
+
+
+                <!-- Filters -->
+                <div class="mt-12 flex flex-wrap gap-2 border-b border-white/10 pb-5">
+
+                    <button type="button" @click="filter = 'all'"
+                        class="rounded-lg px-4 py-2 text-xs font-semibold transition"
+                        :class="filter === 'all'
+                            ?
+                            'bg-teal-300 text-[#071014]' :
+                            'border border-white/10 text-slate-500 hover:border-white/20 hover:text-white'">
+                        All work
+                    </button>
+
+                    <button type="button" @click="filter = 'saas'"
+                        class="rounded-lg px-4 py-2 text-xs font-semibold transition"
+                        :class="filter === 'saas'
+                            ?
+                            'bg-teal-300 text-[#071014]' :
+                            'border border-white/10 text-slate-500 hover:border-white/20 hover:text-white'">
+                        SaaS
+                    </button>
+
+                    <button type="button" @click="filter = 'agency'"
+                        class="rounded-lg px-4 py-2 text-xs font-semibold transition"
+                        :class="filter === 'agency'
+                            ?
+                            'bg-teal-300 text-[#071014]' :
+                            'border border-white/10 text-slate-500 hover:border-white/20 hover:text-white'">
+                        Agency
+                    </button>
+
+                    <button type="button" @click="filter = 'ecommerce'"
+                        class="rounded-lg px-4 py-2 text-xs font-semibold transition"
+                        :class="filter === 'ecommerce'
+                            ?
+                            'bg-teal-300 text-[#071014]' :
+                            'border border-white/10 text-slate-500 hover:border-white/20 hover:text-white'">
+                        E-commerce
+                    </button>
+
+                    <button type="button" @click="filter = 'webapp'"
+                        class="rounded-lg px-4 py-2 text-xs font-semibold transition"
+                        :class="filter === 'webapp'
+                            ?
+                            'bg-teal-300 text-[#071014]' :
+                            'border border-white/10 text-slate-500 hover:border-white/20 hover:text-white'">
+                        Web apps
+                    </button>
+
+                </div>
+
+
+                <!-- Portfolio -->
+                <div class="mt-6 grid gap-5 lg:grid-cols-12">
+
+                    <!-- FEATURED PROJECT -->
+                    <article x-show="filter === 'all' || filter === 'saas'" x-transition.opacity.duration.250ms
+                        class="group relative overflow-hidden rounded-3xl border border-white/10 bg-[#102126] lg:col-span-8">
+
+                        <!-- Project visual -->
+                        <div class="relative aspect-[16/10] overflow-hidden bg-[#12272c]">
+
+                            <!-- Browser frame -->
+                            <div
+                                class="absolute inset-[7%] overflow-hidden rounded-2xl border border-white/10 bg-[#071014] shadow-2xl transition duration-500 group-hover:scale-[1.015] group-hover:-translate-y-1">
+
+                                <div class="flex h-9 items-center gap-2 border-b border-white/10 px-4">
+
+                                    <span class="h-1.5 w-1.5 rounded-full bg-red-400/60"></span>
+                                    <span class="h-1.5 w-1.5 rounded-full bg-yellow-400/60"></span>
+                                    <span class="h-1.5 w-1.5 rounded-full bg-green-400/60"></span>
+
+                                    <div class="ml-3 h-4 flex-1 rounded bg-white/[0.04]"></div>
+
+                                </div>
+
+
+                                <!-- Mock UI -->
+                                <div class="grid h-full grid-cols-[72px_1fr]">
+
+                                    <aside class="border-r border-white/10 bg-white/[0.015] p-3">
+
+                                        <div class="mx-auto h-6 w-6 rounded-lg bg-teal-300/20"></div>
+
+                                        <div class="mt-8 space-y-3">
+
+                                            <span class="block h-2 rounded bg-teal-300/40"></span>
+                                            <span class="block h-2 rounded bg-white/10"></span>
+                                            <span class="block h-2 rounded bg-white/10"></span>
+                                            <span class="block h-2 rounded bg-white/10"></span>
+                                            <span class="block h-2 rounded bg-white/10"></span>
+
+                                        </div>
+
+                                    </aside>
+
+
+                                    <div class="p-5 sm:p-8">
+
+                                        <div class="h-3 w-28 rounded bg-white/10"></div>
+
+                                        <div class="mt-5 grid gap-3 sm:grid-cols-3">
+
+                                            <div class="h-20 rounded-xl border border-white/10 bg-white/[0.025]"></div>
+                                            <div class="h-20 rounded-xl border border-white/10 bg-white/[0.025]"></div>
+                                            <div class="h-20 rounded-xl border border-teal-300/10 bg-teal-300/[0.025]">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="mt-4 grid gap-3 sm:grid-cols-[1.3fr_0.7fr]">
+
+                                            <div class="h-40 rounded-xl border border-white/10 bg-white/[0.02]"></div>
+
+                                            <div class="h-40 rounded-xl border border-white/10 bg-white/[0.02]"></div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Hover overlay -->
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-[#071014]/80 via-transparent to-transparent opacity-60">
+                            </div>
+
+                        </div>
+
+
+                        <!-- Project information -->
+                        <div class="p-6 sm:p-7">
+
+                            <div class="flex flex-wrap items-start justify-between gap-5">
+
+                                <div>
+
+                                    <div
+                                        class="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.15em] text-teal-300">
+
+                                        <span>01</span>
+                                        <span class="text-slate-700">/</span>
+                                        <span>SaaS</span>
+
+                                    </div>
+
+                                    <h3
+                                        class="mt-3 font-display text-2xl font-bold tracking-[-0.025em] text-white sm:text-3xl">
+                                        Analytics Dashboard
+                                    </h3>
+
+                                    <p class="mt-2 max-w-xl text-sm leading-6 text-slate-500">
+                                        Responsive dashboard interface built from a
+                                        detailed product design and prepared for
+                                        application integration.
+                                    </p>
+
+                                </div>
+
+
+                                <a href="/work/analytics-dashboard" aria-label="View Analytics Dashboard project"
+                                    class="group/link flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/10 transition hover:border-teal-300/30 hover:bg-teal-300/5">
+                                    <span aria-hidden="true"
+                                        class="transition-transform duration-200 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5">
+                                        ↗
+                                    </span>
+                                </a>
+
+                            </div>
+
+
+                            <!-- Stack -->
+                            <div class="mt-6 flex flex-wrap gap-2">
+
+                                <span class="rounded-lg bg-white/5 px-3 py-1.5 font-mono text-[10px] text-slate-500">
+                                    Tailwind CSS
+                                </span>
+
+                                <span class="rounded-lg bg-white/5 px-3 py-1.5 font-mono text-[10px] text-slate-500">
+                                    Alpine.js
+                                </span>
+
+                                <span class="rounded-lg bg-white/5 px-3 py-1.5 font-mono text-[10px] text-slate-500">
+                                    Laravel Blade
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 02 -->
+                    <article x-show="filter === 'all' || filter === 'agency'" x-transition.opacity.duration.250ms
+                        class="group overflow-hidden rounded-3xl border border-white/10 bg-white/[0.025] lg:col-span-4">
+
+                        <div class="relative aspect-[4/3] overflow-hidden bg-[#14282d]">
+
+                            <div
+                                class="absolute inset-5 rounded-2xl border border-white/10 bg-[#071014] p-4 transition duration-500 group-hover:scale-[1.02]">
+
+                                <div class="flex items-center justify-between">
+
+                                    <div class="h-4 w-20 rounded bg-white/10"></div>
+
+                                    <div class="h-6 w-6 rounded-full border border-white/10"></div>
+
+                                </div>
+
+                                <div class="mt-8 h-16 rounded-xl bg-teal-300/10"></div>
+
+                                <div class="mt-3 grid grid-cols-2 gap-3">
+
+                                    <div class="h-24 rounded-xl bg-white/[0.035]"></div>
+                                    <div class="h-24 rounded-xl bg-white/[0.035]"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="p-6">
+
+                            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-teal-300">
+                                02 / Agency
+                            </span>
+
+                            <h3 class="mt-3 text-xl font-bold text-white">
+                                Marketing Platform
+                            </h3>
+
+                            <p class="mt-2 text-sm leading-6 text-slate-500">
+                                Conversion-focused frontend for a digital product team.
+                            </p>
+
+                            <div class="mt-5 flex items-center justify-between">
+
+                                <span class="font-mono text-[10px] text-slate-600">
+                                    React · Next.js
+                                </span>
+
+                                <a href="/work/marketing-platform"
+                                    class="text-sm font-medium text-teal-300 transition hover:text-white">
+                                    View project →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 03 -->
+                    <article x-show="filter === 'all' || filter === 'ecommerce'" x-transition.opacity.duration.250ms
+                        class="group overflow-hidden rounded-3xl border border-white/10 bg-white/[0.025] lg:col-span-4">
+
+                        <div class="relative aspect-[4/3] overflow-hidden bg-[#11262a]">
+
+                            <div class="absolute inset-6 flex items-center justify-center">
+
+                                <div
+                                    class="grid w-full grid-cols-2 gap-3 transition duration-500 group-hover:-translate-y-1">
+
+                                    <div class="aspect-square rounded-2xl bg-white/[0.05] p-3">
+                                        <div class="h-full rounded-xl border border-white/10"></div>
+                                    </div>
+
+                                    <div class="aspect-square rounded-2xl bg-teal-300/10 p-3">
+                                        <div class="h-full rounded-xl border border-teal-300/20"></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="p-6">
+
+                            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-teal-300">
+                                03 / E-commerce
+                            </span>
+
+                            <h3 class="mt-3 text-xl font-bold text-white">
+                                Commerce Experience
+                            </h3>
+
+                            <p class="mt-2 text-sm leading-6 text-slate-500">
+                                Responsive storefront built around an existing commerce stack.
+                            </p>
+
+                            <div class="mt-5 flex items-center justify-between">
+
+                                <span class="font-mono text-[10px] text-slate-600">
+                                    HTML · Tailwind
+                                </span>
+
+                                <a href="/work/commerce-experience"
+                                    class="text-sm font-medium text-teal-300 transition hover:text-white">
+                                    View project →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 04 -->
+                    <article x-show="filter === 'all' || filter === 'webapp'" x-transition.opacity.duration.250ms
+                        class="group overflow-hidden rounded-3xl border border-white/10 bg-white/[0.025] lg:col-span-4">
+
+                        <div class="relative aspect-[4/3] overflow-hidden bg-[#12272c]">
+
+                            <div class="absolute inset-5 rounded-2xl border border-white/10 bg-[#071014] p-5">
+
+                                <div class="flex gap-3">
+
+                                    <div class="h-8 w-8 rounded-lg bg-emerald-400/10"></div>
+
+                                    <div class="flex-1">
+                                        <div class="h-2.5 w-24 rounded bg-white/10"></div>
+                                        <div class="mt-2 h-2 w-16 rounded bg-white/5"></div>
+                                    </div>
+
+                                </div>
+
+                                <div class="mt-6 space-y-3">
+
+                                    <div class="h-9 rounded-lg bg-white/[0.035]"></div>
+                                    <div class="h-9 rounded-lg bg-white/[0.035]"></div>
+                                    <div class="h-9 rounded-lg bg-teal-300/10"></div>
+                                    <div class="h-9 rounded-lg bg-white/[0.035]"></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="p-6">
+
+                            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-teal-300">
+                                04 / Web app
+                            </span>
+
+                            <h3 class="mt-3 text-xl font-bold text-white">
+                                Operations Portal
+                            </h3>
+
+                            <p class="mt-2 text-sm leading-6 text-slate-500">
+                                Clean application UI with reusable components and responsive states.
+                            </p>
+
+                            <div class="mt-5 flex items-center justify-between">
+
+                                <span class="font-mono text-[10px] text-slate-600">
+                                    Vue · Nuxt
+                                </span>
+
+                                <a href="/work/operations-portal"
+                                    class="text-sm font-medium text-teal-300 transition hover:text-white">
+                                    View project →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 05 -->
+                    <article x-show="filter === 'all' || filter === 'saas'" x-transition.opacity.duration.250ms
+                        class="group overflow-hidden rounded-3xl border border-white/10 bg-white/[0.025] lg:col-span-4">
+
+                        <div class="relative aspect-[4/3] overflow-hidden bg-[#11252a]">
+
+                            <div class="absolute inset-6 flex items-end">
+
+                                <div class="w-full space-y-3 transition duration-500 group-hover:-translate-y-1">
+
+                                    <div class="h-12 rounded-xl border border-white/10 bg-white/[0.025]"></div>
+
+                                    <div class="grid grid-cols-3 gap-3">
+
+                                        <div class="h-24 rounded-xl border border-teal-300/10 bg-teal-300/[0.04]">
+                                        </div>
+                                        <div class="h-24 rounded-xl border border-white/10 bg-white/[0.025]"></div>
+                                        <div class="h-24 rounded-xl border border-white/10 bg-white/[0.025]"></div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="p-6">
+
+                            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-teal-300">
+                                05 / SaaS
+                            </span>
+
+                            <h3 class="mt-3 text-xl font-bold text-white">
+                                Product Workspace
+                            </h3>
+
+                            <p class="mt-2 text-sm leading-6 text-slate-500">
+                                Component-driven frontend prepared for long-term product growth.
+                            </p>
+
+                            <div class="mt-5 flex items-center justify-between">
+
+                                <span class="font-mono text-[10px] text-slate-600">
+                                    React · Tailwind
+                                </span>
+
+                                <a href="/work/product-workspace"
+                                    class="text-sm font-medium text-teal-300 transition hover:text-white">
+                                    View project →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 06 -->
+                    <article x-show="filter === 'all' || filter === 'agency'" x-transition.opacity.duration.250ms
+                        class="group overflow-hidden rounded-3xl border border-white/10 bg-white/[0.025] lg:col-span-4">
+
+                        <div class="relative aspect-[4/3] overflow-hidden bg-[#13262b]">
+
+                            <div class="absolute inset-6 grid grid-cols-3 gap-3">
+
+                                <div class="col-span-2 rounded-2xl border border-white/10 bg-[#071014] p-4">
+
+                                    <div class="h-3 w-20 rounded bg-white/10"></div>
+
+                                    <div class="mt-5 space-y-3">
+
+                                        <div class="h-8 rounded-lg bg-white/[0.04]"></div>
+                                        <div class="h-8 rounded-lg bg-white/[0.04]"></div>
+                                        <div class="h-8 rounded-lg bg-teal-300/[0.07]"></div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 bg-teal-300/[0.04]"></div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="p-6">
+
+                            <span class="font-mono text-[10px] uppercase tracking-[0.15em] text-teal-300">
+                                06 / Agency
+                            </span>
+
+                            <h3 class="mt-3 text-xl font-bold text-white">
+                                Client Portal
+                            </h3>
+
+                            <p class="mt-2 text-sm leading-6 text-slate-500">
+                                Structured frontend for an agency-managed client platform.
+                            </p>
+
+                            <div class="mt-5 flex items-center justify-between">
+
+                                <span class="font-mono text-[10px] text-slate-600">
+                                    Laravel · Alpine
+                                </span>
+
+                                <a href="/work/client-portal"
+                                    class="text-sm font-medium text-teal-300 transition hover:text-white">
+                                    View project →
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <!-- Bottom CTA -->
+                <div class="mt-8 rounded-3xl border border-white/10 bg-white/[0.02] p-6 sm:p-7">
+
+                    <div class="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+
+                        <div class="max-w-2xl">
+
+                            <p class="font-mono text-[10px] uppercase tracking-[0.16em] text-slate-600">
+                                Your project could be next
+                            </p>
+
+                            <p class="mt-2 text-lg font-medium leading-7 text-slate-200">
+                                Have a design ready?
+                                <span class="text-slate-500">
+                                    Let's turn it into production-ready frontend code.
+                                </span>
+                            </p>
+
+                        </div>
+
+                        <a href="#contact"
+                            class="group inline-flex shrink-0 items-center justify-center gap-3 rounded-xl bg-teal-300 px-5 py-3 text-sm font-semibold text-[#071014] transition hover:-translate-y-0.5 hover:bg-teal-200">
+                            Start a project
+
+                            <span aria-hidden="true"
+                                class="transition-transform duration-200 group-hover:translate-x-1">
+                                →
+                            </span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Container with Deep Charcoal Background for Premium Agency Feel -->
+        <section class="bg-[#0f1115] text-[#f3f4f6] py-20 px-6 font-sans">
+            <div class="max-w-5xl mx-auto" x-data="{
+                projectType: 'pages',
+                stack: 'core',
+                volume: 1,
+                basePrices: {
+                    pages: { core: 150, framework: 290 },
+                    app: { core: 1200, framework: 2400 },
+                    squad: { core: 3500, framework: 4800 }
+                },
+                calculateTotal() {
+                    let unitPrice = this.basePrices[this.projectType][this.stack];
+                    return unitPrice * this.volume;
+                }
+            }">
+
+                <!-- Section Header -->
+                <div class="text-center mb-12">
+                    <span
+                        class="text-xs uppercase tracking-widest text-[#00ffcc] font-semibold bg-[#00ffcc]/10 px-3 py-1 rounded-full">Transparent
+                        Pricing</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-4 tracking-tight">Estimate Your Project Cost Instantly
+                    </h2>
+                    <p class="text-gray-400 mt-2 text-base max-w-xl mx-auto">Select your requirements below. See a
+                        clear starter price based on your chosen development stack.</p>
+                </div>
+
+                <!-- Main Dynamic Interface Matrix -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+
+                    <!-- Left side: Interactive Configurator (7 Columns) -->
+                    <div class="lg:col-span-7 bg-[#161920] p-6 rounded-2xl border border-gray-800 space-y-8">
+
+                        <!-- Step 1: Project Scenario Type -->
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-3">1. Select Your Project
+                                Scenario</label>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                                <button @click="projectType = 'pages'; volume = 1"
+                                    :class="projectType === 'pages' ? 'border-[#00ffcc] bg-[#00ffcc]/5 text-white' :
+                                        'border-gray-800 text-gray-400 hover:border-gray-700'"
+                                    class="p-4 rounded-xl border text-left transition-all">
+                                    <span class="block font-semibold text-sm">Static Component</span>
+                                    <span class="block text-xs text-gray-500 mt-1">Figma to HTML / Tailwind / Landing
+                                        Pages</span>
+                                </button>
+                                <button @click="projectType = 'app'; volume = 1"
+                                    :class="projectType === 'app' ? 'border-[#00ffcc] bg-[#00ffcc]/5 text-white' :
+                                        'border-gray-800 text-gray-400 hover:border-gray-700'"
+                                    class="p-4 rounded-xl border text-left transition-all">
+                                    <span class="block font-semibold text-sm">Full Web App</span>
+                                    <span class="block text-xs text-gray-500 mt-1">Complete Frontend for SaaS &
+                                        Systems</span>
+                                </button>
+                                <button @click="projectType = 'squad'; volume = 1"
+                                    :class="projectType === 'squad' ? 'border-[#00ffcc] bg-[#00ffcc]/5 text-white' :
+                                        'border-gray-800 text-gray-400 hover:border-gray-700'"
+                                    class="p-4 rounded-xl border text-left transition-all">
+                                    <span class="block font-semibold text-sm">Dedicated Team</span>
+                                    <span class="block text-xs text-gray-500 mt-1">Monthly Dedicated Outsource
+                                        Help</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Step 2: Tech Stack Choice -->
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-3">2. Choose Tech Stack</label>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <button @click="stack = 'core'"
+                                    :class="stack === 'core' ? 'border-[#ff9900] bg-[#ff9900]/5 text-white' :
+                                        'border-gray-800 text-gray-400 hover:border-gray-700'"
+                                    class="p-4 rounded-xl border text-left transition-all">
+                                    <span class="block font-semibold text-sm">Core Stack</span>
+                                    <span class="block text-xs text-gray-500 mt-1">HTML5, Tailwind CSS,
+                                        Alpine.js</span>
+                                </button>
+                                <button @click="stack = 'framework'"
+                                    :class="stack === 'framework' ? 'border-[#ff9900] bg-[#ff9900]/5 text-white' :
+                                        'border-gray-800 text-gray-400 hover:border-gray-700'"
+                                    class="p-4 rounded-xl border text-left transition-all">
+                                    <span class="block font-semibold text-sm">JS Frameworks</span>
+                                    <span class="block text-xs text-gray-500 mt-1">React, Next.js, Vue, Nuxt.js</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Step 3: Dynamic Multiplier (Changes phrase based on choice) -->
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">
+                                3. Project Scale: <span class="text-[#00ffcc] font-bold" x-text="volume"></span>
+                                <span
+                                    x-text="projectType === 'pages' ? 'Page(s)' : (projectType === 'app' ? 'App Project(s)' : 'Month(s)')"></span>
+                            </label>
+                            <input type="range" min="1" max="10" x-model="volume"
+                                class="w-full accent-[#00ffcc] bg-gray-800 rounded-lg appearance-none h-2 cursor-pointer">
+                            <div class="flex justify-between text-xs text-gray-500 mt-1">
+                                <span>1</span>
+                                <span>10+</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Right Side: Live Price Card Output (5 Columns) -->
+                    <div
+                        class="lg:col-span-5 bg-[#1a1e26] p-8 rounded-2xl border-2 border-[#00ffcc] shadow-lg shadow-[#00ffcc]/5 flex flex-col justify-between min-h-[400px]">
+
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <h3 class="text-lg font-bold text-white tracking-wide">Estimated Starting Price</h3>
+                                <span
+                                    class="bg-[#00ffcc]/10 text-[#00ffcc] text-xs font-semibold px-2.5 py-1 rounded">Supervised
+                                    AI Speed</span>
+                            </div>
+
+                            <!-- Price Output Display -->
+                            <div class="my-6">
+                                <span class="text-gray-400 text-sm">Starting From</span>
+                                <div class="flex items-baseline mt-1">
+                                    <span class="text-4xl md:text-5xl font-black text-white">$</span>
+                                    <span class="text-5xl md:text-6xl font-black text-white tracking-tight"
+                                        x-text="calculateTotal()"></span>
+                                    <span class="text-gray-400 ml-2 text-sm"
+                                        x-text="projectType === 'squad' ? '/ total term' : 'est.'"></span>
+                                </div>
+                            </div>
+
+                            <!-- Quick Bullet Summary Features -->
+                            <ul class="space-y-3 text-sm text-gray-300 border-t border-gray-800 pt-6">
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-[#00ffcc]" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span>100% White Label (Strict NDA)</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-[#00ffcc]" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span>Semantic, clean code (No AI bloat)</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-[#00ffcc]" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    <span>Fast technical SEO ready foundation</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Call to Action Form Entry Anchor -->
+                        <div class="mt-8">
+                            <a href="#contact"
+                                class="block text-center bg-[#00ffcc] text-[#0f1115] font-bold py-4 px-6 rounded-xl transition-all hover:bg-[#00e6b8] hover:shadow-lg hover:shadow-[#00ffcc]/20">
+                                Get Exact Fixed Quote Now
+                            </a>
+                            <p class="text-center text-xs text-gray-500 mt-3">We deliver customized human-verified
+                                proposals within 24 hours.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
